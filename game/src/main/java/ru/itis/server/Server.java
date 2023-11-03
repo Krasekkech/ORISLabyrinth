@@ -49,6 +49,7 @@ public class Server {
                         stopResponse.putArray("raiting");
                         out.println(stopResponse.toString() + "\n");
                         break;
+
                     }
                 }
                 System.out.println("Соединение разорвано с клиентом.");
